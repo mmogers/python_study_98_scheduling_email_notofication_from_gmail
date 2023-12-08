@@ -27,7 +27,7 @@ def sendEmail():
   s.login(username, password)
   
   msg = MIMEMultipart()
-  msg['To'] = "marinamoger@yahoo.com"
+  msg['To'] = "blabla@yahoo.com"
   msg['From'] = username
   msg['Subject'] = "A new qoute for you!"
   msg.attach(MIMEText(email, 'plain'))
